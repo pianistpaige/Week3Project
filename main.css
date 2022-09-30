@@ -1,0 +1,135 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+body {
+
+}
+.featured-image {
+    background: #fff8dc url(images/veggies.png) no-repeat center fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.navbar {
+    font-family: 'Raleway' , sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: white;
+    font-size: 18px;
+    padding: 0 25px;
+}
+.nav-links {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.main {
+    font-size: 36px;
+}
+.container1 {
+    display: flex;
+}
+.container1_image {
+    width: 500px;
+    height: 350px;
+}
+.container1_text {
+    background-color: black;
+    color: white; 
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.container1_text h2 {
+    padding: 10px 20px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 30px; 
+    width: 100%; 
+}
+.container1_text p {
+   padding: 10px 20px;
+   font-family: 'Raleway' , sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   width: 550px;
+}
+.container2 {
+    display: flex;
+}
+.container2_image {
+    display: flex;
+    justify-content: flex-end;
+    width: 550px;
+    height: 400px;
+}
+.container2_text {
+    background-color: #161717;
+    color: white; 
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.container2_text h2 {
+    padding: 10px 20px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 30px; 
+    width: 100%; 
+}
+.container2_text p {
+   padding: 10px 20px;
+   font-family: 'Raleway' , sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   width: 550px;
+}
+.container3 {
+    display: flex;
+}
+.container3_image {
+    width: 700px;
+    height: 400px;
+}
+.container3_text {
+    background-color: #252727;
+    color: white; 
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.container3_text h2 {
+    padding: 10px 20px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 30px; 
+    width: 100%; 
+}
+.container3_text p {
+   padding: 10px 20px;
+   font-family: 'Raleway' , sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   width: 550px;
+}
